@@ -15,7 +15,7 @@
     width: 100%;
 }
 
-/* Navbar Style */
+/* Navbar Styles */
 nav{
     display: flex;
     align-items: center;
@@ -127,7 +127,7 @@ nav ul li a{
 }
 
 
-/* Banner Style */
+/* Banner Styles */
 .banner-section{
     margin: 0 140px;
     display: flex;
@@ -241,4 +241,98 @@ nav ul li a{
     .banner-img{
         width: 50%;
     } */
+}
+
+/* Class Styles */
+.standard-section{
+    margin: 0 140px;
+    padding: 60px 0;
+    background-image: url(../assets/bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.standard-title{
+    font-family: "Quicksand", serif;
+    font-size: 46px;
+    font-weight: bold;
+    /* line-height: 62px; */
+    text-align: center;
+}
+.class-div{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 80px 0;
+    gap: 28px;
+}
+.kinder-cont{
+    display: inline;
+    background-image: linear-gradient(#DEF5FF, 40%), (#FFFFFF, 100%);
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 18px;
+    box-shadow: 0 0 28px #000000;
+    /* gap: 20px; */
+    /* align-items: center;
+    justify-content: center; */
+}
+.kinder-img{
+    width: 100%;
+    padding: 20px 80px;
+}
+.img-1{
+    width: 100%;
+    align-items: center;
+}
+.kinder-title{
+    font-family: "Quicksand", serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #202020;
+    /* line-height: 62px; */
+    text-align: center;
+}
+.kinder-para{
+    font-family: "Quicksand", serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 30px 0;
+    line-height: 28px;
+    /* line-height: 62px; */
+    text-align: center;
+    color: #808080;
+}
+.kinder-btn{
+    text-align: center;
+}
+.elementary-cont{
+    display: inline;
+    background-image: linear-gradient(#DEF5FF, 40%), (#FFFFFF, 100%);
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 18px;
+    box-shadow: 0 0 28px #000000;
+}
+.middle-cont{
+    display: inline;
+    background-image: linear-gradient(#DEF5FF, 40%), (#FFFFFF, 100%);
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 18px;
+    box-shadow: 0 0 28px #000000;
+}
+#kinder{
+    color: #64C8FF;
+    background: none;
+    border: none;
+}
+#elementary{
+    color: #F0AA00;
+    background: none;
+    border: none;
+}
+#middle{
+    color: #8700FF;
+    background: none;
+    border: none;
 }
