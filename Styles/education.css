@@ -157,6 +157,7 @@ nav ul li a{
     padding-top: 24px;
 }
 .primary-btn{
+    display: inline;
     font-family: "Quicksand", serif;
     font-size: 20px;
     font-weight: bold;
@@ -171,4 +172,73 @@ nav ul li a{
 }
 .banner-img{
     width: 100%;
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .banner-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 30px 70px;
+        gap: 20px;
+    }
+    .banner-title{
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+    }
+    .banner-content{
+        font-size: 18px;
+        padding-top: 16px;
+        text-align: center;
+    }
+    .banner-btn{
+        padding-top: 24px;
+        text-align: center;
+        /* align-items: center;
+        justify-content: center; */
+    }
+    .primary-btn{
+        font-size: 18px;
+    }
+    /* .ban-img-cont{
+        width: 100%;
+    }
+    .banner-img{
+        width: 100%;
+    } */
+}
+
+@media screen and (max-width:576px) {
+    .banner-section{
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 20px;
+        padding: 24px;
+        gap: 20px;
+    }
+    .banner-title{
+        font-size: 32px;
+        line-height: 45px;
+        text-align: center;
+    }
+    .banner-content{
+        font-size: 14px;
+        padding-top: 16px;
+        text-align: center;
+    }
+    .banner-btn{
+        padding-top: 24px;
+        text-align: center;
+    }
+    .primary-btn{
+        font-size: 16px;
+    }
+    /* .ban-img-cont{
+        width: 100%;
+    }
+    .banner-img{
+        width: 50%;
+    } */
 }
