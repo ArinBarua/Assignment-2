@@ -4,3 +4,124 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(../assets/bg.png);
+    background-repeat: repeat;
+}
+#logo-img{
+    width: 100%;
+}
+
+/* Navbar Style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 140px;
+}
+.menu{
+    display: none;
+    font-size: 30px;
+}
+.nav-logo-div{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    /* padding: 5px; */
+    /* width: max-content;
+    margin: 0; */
+}
+.nav-title-div{
+    /* position: relative; */
+    display: inline;
+    align-items: center;
+    justify-content: start;
+    width: max-content;
+    margin: 0;
+    padding: 0 10px;
+    /* padding-right: 60px; */
+}
+nav ul{
+    display: flex;
+    /* margin: 16px 180px; */
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+.nav-btn-div{
+    display: inline;
+    align-items: center;
+    justify-content: end;
+}
+.nav-title{
+    font-family: "Quicksand", serif;
+    font-size: 32px;
+    font-weight: bold;
+}
+#Home{
+    color: orange;
+}
+#About{
+    color: skyblue;
+}
+#Facilities{
+    color: #05D4DF;
+}
+#Admission{
+    color: #5D58EF;
+}
+#nav-btn{
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 60px;
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    nav{
+        flex-direction: column;
+        margin: 30px 70px;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .nav-container{
+        border: 1px solid orange;
+    }
+    nav{
+        margin: 20px;
+    }
+    .nav-title{
+        display: none;
+    }
+    .nav-title-div{
+        display: none;
+    }
+    .nav-link-div{
+        display: none;
+    }
+    #nav-btn{
+        display: none;
+    }
+    .menu{
+        display: inline;
+        font-size: 30px;
+    }
+}
