@@ -613,3 +613,49 @@ nav ul li a{
     display: flex;
     gap: 10px;
 }
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .footer-section{
+        /* padding: 120px 230px 175px 140px; */
+        padding: 30px 70px;
+    }
+    .footer-div{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:576px){
+    .footer-section{
+        padding: 20px;
+    }
+    .footer-div{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .footer-title{
+        font-family: "Quicksand", serif;
+        font-size: 20px;
+        font-weight: bold;
+        line-height: 26px;
+        color: white;
+    }
+    #footer-pera{
+        font-family: "Quicksand", serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+    }
+    .about-link{
+        font-family: "Quicksand", serif;
+        font-size: 16px;
+        font-weight: 400;
+        color: white;
+    }
+    #about{
+        font-family: "Quicksand", serif;
+        font-size: 18px;
+        font-weight: bold;
+        color: white;
+    }
+}
