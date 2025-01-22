@@ -249,6 +249,27 @@ nav ul li a{
     } */
 }
 
+/* Marquee style */
+.marquee{
+    font-family: "Quicksand", serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    background-color: #01acfd;
+    border: 1px solid #fe020d;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media screen and (max-width:576px){
+    .marquee{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+
 /* Class Styles */
 .standard-section{
     padding: 60px 140px;
