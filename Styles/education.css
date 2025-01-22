@@ -564,3 +564,52 @@ nav ul li a{
         gap: 20px;
     }
 }
+
+/* Footer Styles */
+.footer-section{
+    padding: 120px 230px 175px 140px;
+    background-color: #01ACFD;
+}
+.footer-div{
+    display: flex;
+    gap: 80px;
+}
+#primary-cont1{
+    display: flex;
+    align-items: center;
+    /* padding-right: 30px; */
+    /* justify-content: center; */
+}
+#primary-cont2{
+    /* padding-right: 30px; */
+}
+.footer-title{
+    font-family: "Quicksand", serif;
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 26px;
+    color: white;
+}
+#footer-pera{
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.about-link{
+    font-family: "Quicksand", serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+#about{
+    font-family: "Quicksand", serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+.icon-div{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+}
