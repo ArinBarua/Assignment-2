@@ -249,6 +249,7 @@ nav ul li a{
     } */
 }
 
+
 /* Marquee style */
 .marquee{
     font-family: "Quicksand", serif;
@@ -261,6 +262,8 @@ nav ul li a{
     margin-bottom: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
+    animation: move-rtl 6000ms linear infinite;
+    /* transform: translateX(-100%); */
 }
 @media screen and (max-width:576px){
     .marquee{
