@@ -446,10 +446,6 @@ nav ul li a{
 .big-cont{
     width: 100%;
 }
-.big-story-div{
-    align-items: center;
-    justify-content: center;
-}
 .many-story-div{
     width: 100%;
     display: grid;
@@ -457,11 +453,6 @@ nav ul li a{
     margin: 0;
     padding: 0;
     gap: 20px;
-}
-.sec-story-div{
-    background-color: white;
-    border: none;
-    border-radius: 16px;
 }
 .big-story-div{
     background-color: white;
@@ -538,4 +529,35 @@ nav ul li a{
     border-radius: 50px;
     margin-top: -100px;
     padding: 10px;
+}
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .story-section{
+        padding: 30px 70px;
+    }
+    .story-div{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+        /* align-items: center;
+        justify-content: center; */
+    }
+    /* .big-story-div{
+        visibility: hidden;
+    } */
+}
+
+@media screen and (max-width:576px){
+    .story-section{
+        padding: 24px;
+    }
+    .story-div{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
 }
