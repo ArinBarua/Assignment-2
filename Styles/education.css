@@ -538,18 +538,11 @@ nav ul li a{
     .story-section{
         padding: 30px 70px;
     }
-    .story-div{
-        margin-top: 30px;
-        margin-bottom: 30px;
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 20px;
-        /* align-items: center;
-        justify-content: center; */
+    .story-div > .big-story-div{
+        position: absolute;
+        top: -999999px;
+        left: -999999px;
     }
-    /* .big-story-div{
-        visibility: hidden;
-    } */
 }
 
 @media screen and (max-width:576px){
@@ -557,11 +550,22 @@ nav ul li a{
         padding: 24px;
     }
     .story-div{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        display: flex;
-        flex-direction: column-reverse;
-        gap: 20px;
+        margin-top: 30px;
+        margin-bottom: 50px;
+    }
+    .story-div > .big-story-div{
+        position: absolute;
+        top: -999999px;
+        left: -999999px;
+    }
+    .many-story-div{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .story-btn2{
+        margin-left: -5px;
+    }
+    #story-btn3{
+        margin-left: -5px;
     }
 }
 
